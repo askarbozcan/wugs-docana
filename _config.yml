@@ -10,4 +10,4 @@ include:
   - README.md
   - REPORT.md
 
-theme: beautiful-jekyll
+theme: jekyll-theme-minimal
