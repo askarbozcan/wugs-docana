@@ -1,5 +1,5 @@
-title: Document Analysis Semester Project
-description: This repository is a GitHub Pages template for Document Analysis course projects. 
+title: Intensifier Use By Gender Analysis
+description: The page of the Wugs team for the analysis project
 show_downloads: True
 plugins:
   - jekyll-relative-links
