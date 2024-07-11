@@ -31,11 +31,11 @@ conda activate myenv
 pip install -r requirements.txt
 ```
 
-eda.ipynb does basic tests and creates eval csvs for manual labelling.
-label_with_llm.py labels the dataset with the LLM model (Won't run without a DeepInfra API key), and saves chunks of labelled data to disk (same dir as CWD).
-eda_w_gendered_ds.ipynb does the analysis on the labelled dataset.
+- **eda.ipynb** does basic tests and creates eval csvs for manual labelling.
+- **label_with_llm.py** labels the dataset with the LLM model (Won't run without a DeepInfra API key), and saves chunks of labelled data to disk (same dir as CWD).
+- **eda_w_gendered_ds.ipynb** does the analysis on the labelled dataset.
 
-Note that the labelled dataset is already provided. Can just run eda_w_gendered_ds.ipynb only.
+Note that the labelled dataset is already provided. Can just run **eda_w_gendered_ds.ipynb** only.
 
 ### Experiments
 ### Preparation of the dataset with gender information
