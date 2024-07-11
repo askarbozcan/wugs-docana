@@ -57,10 +57,15 @@ To evaluate how well this approach works, we have selected 100 posts randomly an
 Due to the semantic complexity of the task, and the fact that we do not have enough manpower to label enough data on our own, we have decided to use another approach for labelling. We have used an instruct-finetuned LLM to predict the labels instead.
 
 As we do not have enough computational resources to run Gen LLMs, we have opted for a SaaS approach. We have used Phi-3-Medium model hosted on DeepInfra. The model was chosen for the following reasons:
+
 1) **Cost**: Only 0.14$ per 1M tokens. Compare this to GPT-4o, which costs 5$ per 1M tokens.
+
 2) **Stability and prompt following**: Many models the size of Phi-3 either become erratic (even with low temperatures) or do not follow the prompt well. Phi-3-Medium has been tested to be stable and follow the prompt well.
+
 3) **Fine-tuned to output json**: The model is trained to stably output JSON (and only JSON if requested). Given that we want to extract structured data from the text, it's a good fit.
+
 4) **Non-complex problem**: Although requiring semantic understanding sometimes, it is still a relatively simple problem compared to other NLP tasks.
+
 
 Overall, the model has been a good fit for our needs. We have used the model to label the dataset with. The total cost was 27M tokens used for the labelling, which amounts to 3.85$.
 
