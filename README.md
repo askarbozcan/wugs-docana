@@ -4,12 +4,16 @@ _Group members: Askar Bozdjan, Ema Nesic_
 
 ## Introduction
 
-There have been many studies on the linguistic differences between the genders. Labov [1] notes that women tend to use the more prestige (socially valued) forms of language. Moreover, Argamon et. al. [2] found that women tend to use more pronouns in their writing.
+The difference in language use between the genders has undergone considerable Sociolinguistic scrutiny: Labov’s [1] cornerstone 1994 publication posited the Gender Paradox, in which women adjust their language depending on the associated prestige of a linguistic variable (on account of upward social mobility). Moreover, Argamon et al. [2] has posited that women partake in more ‘involved’ language, as demonstrated by their greater use of pronouns in writing.
 
-In our project, we wanted to investigate the use of intensifiers among genders and whether there are any differences in their usage. The following hypothesis was formulated:
-> **Is there a difference in the use of intensifiers between genders? If so, how different is it?**
+For our own project, then, we looked to investigate the use of intensifiers between genders and whether there appears to be any difference in their respective usage.
 
-_Intensifiers are words that modify adjectives and adverbs to increase their strength. For example, in the sentence "I am very happy", the word "very" is an intensifier that strengthens the adjective "happy"._
+_Intensifiers are grammatical elements that modify adjectives and adverbs to increase their strength. For example, in the sentence "I am very happy", the word "very" is an intensifier that strengthens the adjective "happy"._
+
+In addition to being a frequent element of vernacular speech, intensifiers are highly susceptible to change, having multiple variables whose uses fluctuate over time (i.e., very, really, pretty) [3], [4]. This lead us to posit the following hypothesis: 
+
+> **are there observable differences between the choice of intensifiers in male and female written language (having been previously been attested in spoken language)? Further, does there appear to be a preference among women for the most recent variant ‘so’?**
+
 
 ## Dataset
 
@@ -98,9 +102,9 @@ Moreover, we have looked at the percentage of intensifiers used by gender.
 
 
 ### Intensifier Analysis
-The results are inconclusive, the dataset is small and the labels are noisy, so the results should be taken with a grain of salt, especially the chi-square p-values.
+Ultimately the results are inconclusive: seeing that the dataset is small and the labels are noisy, these results should be taken with some caution (particulary  with the chi-square p-values).
 
-_Note: To keep the experiments in-scope, we have only used the intensifiers "so", "pretty", "very" and "really" in our analysis._
+_Note: To keep the experiments within scope, we have only used the intensifiers "so", "pretty", "very" and "really" in our analysis; these are the same four intensifiers in Tagliamonte’s investigation of North American English in the last three decades, proving most frequent (and thus most relevant to the current study)._
 
 Chi-square test results for the intensifiers are as follows:
 
@@ -161,13 +165,13 @@ To see further possible differences, we have also looked at the bigram frequenci
 
 Although chi-square test results indicate that there is a significant difference in the use of "so" and "very" intensifiers, the results should be taken with caution due to the small dataset and noisy labels. 
 
-With more data and cleaner labels, we could potentially find more significant differences in the use of the intensifiers.
+With more data and cleaner labels, we could potentially find more significant differences in the use of intensifiers; additionally, looking at posts with relevant location information may reveal regional differences in intensifier preference (i.e., North American vs. British English).
 
 ## Contributions
 
 | Team Member  | Contributions                                             |
 |--------------|-----------------------------------------------------------|
-| Ema Nesic  | "Brains": Theory, ideas, hypothesis building, evaluating the results on a linguistic level|                                                       |
+| Ema Nesic  | "Brains": Theory & literature, hypothesis building, evaluating the results on a linguistic level|                                                       |
 | Askar Bozdjan | "Brawns": Labelling, preprocessing, generating the figures & statistical measure                                                       |
 
 ## References
@@ -177,4 +181,8 @@ With more data and cleaner labels, we could potentially find more significant di
 
 [2] Argamon, S., Koppel, M., Fine, J., & Shimoni, A. R. (2003). Gender, genre, and writing style in formal written texts. Text, 23(3), 321-346. https://doi.org/10.1515/text.2003.014
 
-[3] https://webis.de/data/webis-tldr-17.html
+[3] Tagliamonte, S. (2005). So weird; so cool; so innovative: The use of intensifiers in the television series Friends. American Speech, 80(3), 280-300. 10.1215/00031283-80-3-280.
+
+[4] Tagliamonte, S. (2008). So different and pretty cool! Recycling intensifiers in Toronto, Canada. English Language and Linguistics, 12(2), 361–394. doi:10.1017/S1360674308002669 
+
+[5] https://webis.de/data/webis-tldr-17.html
